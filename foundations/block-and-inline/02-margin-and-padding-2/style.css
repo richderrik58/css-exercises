@@ -1,6 +1,11 @@
+.element.style {
+  margin: 0px;
+  height: 100%;
+  background: rgb(14,14,14);
+}
+
 body {
-  background: #eee;
-  font-family: sans-serif;
+  display: block;
 }
 
 .card {
@@ -22,6 +27,8 @@ body {
 }
 
 button {
+  display: block;
+  margin: 0 auto;
   background: white;
   border: 1px solid #eee;
 }
